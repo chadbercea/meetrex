@@ -1,0 +1,33 @@
+
+form {
+    font-size: 24px;
+}
+
+.rex-radio {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.emoji {
+    width: 64px;
+    height: 64px;
+    margin-top: 64px;
+    margin-bottom: 24px;
+}
+
+.change-answer {
+    font-size: 16px;
+    margin: 24px auto;
+    
+}
+
+.change-answer img {
+    width: 32px;
+    margin-left: 8px;
+}
+
+.rex {
+    width: 35%;
+    margin: 16px auto;
+}

@@ -1,0 +1,55 @@
+.btns {
+    margin-top: 24px;
+}
+.facebook {
+    background-image: url("../img/facebook.svg");
+    background-position: 24px, 0px;
+    background-repeat: no-repeat;
+    background-color: #3c5a99;
+    border: none;
+}
+.zillow {
+    background-image: url("../img/zillow.svg");
+    background-position: 24px, 0px;
+    background-repeat: no-repeat;
+    background-color: #0074e4;
+    border: none;
+}
+.yelp {
+    background-image: url("../img/yelp.svg");
+    background-position: 24px, 0px;
+    background-repeat: no-repeat;
+    background-color: #bf2519;
+    border: none;
+}
+.google-alt {
+    background-image: url("../img/google-alt.svg");
+    background-position: 24px, 0px;
+    background-repeat: no-repeat;
+    background-color: #e6e6e6;
+    border: none;
+    color: #3B3B3B;
+}
+.linkedin {
+    background-image: url("../img/linkedin.svg");
+    background-position: 24px, 0px;
+    background-repeat: no-repeat;
+    background-color: #0077b7;
+    border: none;
+}
+.realtorcom {
+    background-image: url("../img/realtorcom.svg");
+    background-position: 24px, 0px;
+    background-repeat: no-repeat;
+    background-color: #eb1b2b;
+    border: none;
+}
+.emoji {
+    width: 15%;
+    margin-top: 64px;
+}
+.rex {
+    width: 35%;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
