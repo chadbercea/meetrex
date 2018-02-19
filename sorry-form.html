@@ -5,9 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/sorry.css">
+    <link rel="stylesheet" type="text/css" href="css/googlefontroboto.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">    
+    <style>
+
+    </style>
     <title>Rex is really sorry.</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>  
   </head>
-  <body>
+  <body class="container col-lg-4 col-sm-12">
     <div class="container">
         <div class="">
             <div class="row">
@@ -15,43 +22,51 @@
             </div>
             <div class="text-center">
                 <h2>Rex is really sorry.</h2>
-                <p>Tell us what went wrong?</p>
+                <p class="tellus">Tell us what went wrong?</p>
             </div>
         </div>
-    </div>  
+    </div>
+    <div class="container text-center">
+        <span class="fa fa-star checked"></span>
+        <span class="far fa-star"></span>
+        <span class="far fa-star"></span>
+        <span class="far fa-star"></span>
+        <span class="far fa-star"></span>
+    </div>
     <div class="container">    
         <div class="">
             <form>
                 <div class="form-group">
-                    <div class="btn-group btn-group-toggle btn-group-vertical mx-auto btn-block" data-toggle="buttons">
-                      <label class="btn btn-secondary btn-lg btn-light">
-                        <input type="radio" name="options" id="option1" autocomplete="off"> Customer Service
+                    <div class="btn-group btn-group-toggle btn-group-vertical mx-auto btn-block btn-wrap" data-toggle="buttons">
+                      <label class="btn btn-default">
+                        <input class="fa fa-check-circle" type="checkbox" name="options" id="option1" autocomplete="off"> Customer Service
                       </label>
-                      <label class="btn btn-secondary btn-lg btn-light">
-                        <input type="radio" name="options" id="option2" autocomplete="off"> Quality of Work
+                      <label class="btn btn-default">
+                        <input class="far fa-check-circle" type="checkbox" name="options" id="option2" autocomplete="off"> Quality of Work
                       </label>
-                      <label class="btn btn-secondary btn-lg btn-light">
-                        <input type="radio" name="options" id="option3" autocomplete="off"> Communication
+                      <label class="btn btn-default">
+                        <input class="far fa-check-circle" type="checkbox" name="options" id="option3" autocomplete="off"> Communication
                       </label>
-                      <label class="btn btn-secondary btn-lg btn-light">
-                        <input type="radio" name="options" id="option3" autocomplete="off"> Wait Time
+                      <label class="btn btn-default">
+                        <input class="far fa-check-circle" type="checkbox" name="options" id="option3" autocomplete="off"> Wait Time
                       </label>
-                      <label class="btn btn-secondary btn-lg btn-light">
-                        <input type="radio" name="options" id="option3" autocomplete="off"> Other
+                      <label class="btn btn-default">
+                        <input class="far fa-check-circle" type="checkbox" name="options" id="option3" autocomplete="off"> Other
                       </label>
                     </div>
                 </div>                
-                <div class="container change-answer">
+                <div class="change-answer">
                     <div class="row mx-auto">
-                        <a href="#" class="mx-auto">Change my answer<img src="img/happy-face-emoji@2x.png"></a>
+                        <a href="#" class="mx-auto ans">Change my answer<img src="img/happy-face-emoji@2x.png"></a>
                     </div>
                 </div>
                 <div class="form-group">
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Tell us what went wrong?"></textarea>
+                    <p class="charCount">0/500</p>
                 </div>
                 <div class="form-group">
                     <button type="button" class="btn btn-lg btn-success btn-block">Submit Feedback</button>
-                    <button type="button" class="btn btn-lg btn-primary btn-block">Or Call Us</button>   
+                    <button type="button" class="btn btn-lg btn-primary btn-block primaryBtn">Or Call Us</button>   
                 </div>
             </form>
         </div>
